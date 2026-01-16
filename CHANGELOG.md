@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-25)
+## Unreleased (2026-01-16)
 
 <section class="features">
 
@@ -26,12 +26,25 @@
 
 <!-- /.bug-fixes -->
 
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#9767](https://github.com/stdlib-js/stdlib/issues/9767)
+
+</section>
+
+<!-- /.issues -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`72af2aa`](https://github.com/stdlib-js/stdlib/commit/72af2aacb1ff59c6e96de88b5994790ca756aca4) - **chore:** fix spelling errors in `array` [(#9768)](https://github.com/stdlib-js/stdlib/pull/9768) _(by Shubham, Philipp Burckhardt)_
 -   [`bc3632a`](https://github.com/stdlib-js/stdlib/commit/bc3632a5a7b48a8973b1418e861ddc45b3e8d0fa) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`fd7b7eb`](https://github.com/stdlib-js/stdlib/commit/fd7b7eb341227a6627d70044979b5edfebd5f692) - **refactor:** use assert utility _(by Athan Reines)_
 -   [`179f005`](https://github.com/stdlib-js/stdlib/commit/179f005163d265ff38f7571465c2514f8ccb22cf) - **fix:** use correct variable name _(by Athan Reines)_
@@ -48,10 +61,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Philipp Burckhardt
+-   Shubham
 
 </section>
 
