@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-struct-factory",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Return a constructor for creating arrays having a fixed-width composite data type.",
   "license": "Apache-2.0",
   "author": {
@@ -50,8 +50,8 @@
     "@stdlib/assert-is-nonnegative-integer": "^0.2.2",
     "@stdlib/assert-is-object": "^0.2.2",
     "@stdlib/assert-is-prototype-of": "^0.2.2",
-    "@stdlib/assert-is-struct-constructor-like": "github:stdlib-js/assert-is-struct-constructor-like#main",
-    "@stdlib/blas-base-gcopy": "^0.2.1",
+    "@stdlib/assert-is-struct-constructor-like": "^0.1.0",
+    "@stdlib/blas-base-gcopy": "^0.2.2",
     "@stdlib/dstructs-struct": "github:stdlib-js/dstructs-struct#main",
     "@stdlib/string-format": "^0.2.2",
     "@stdlib/symbol-iterator": "^0.2.2",
