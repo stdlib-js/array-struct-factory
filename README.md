@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import structFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-struct-factory@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-struct-factory/tags). For example,
+
+```javascript
 import structFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-struct-factory@v0.1.0-esm/index.mjs';
 ```
 
@@ -272,7 +277,7 @@ TODO: document methods
 <body>
 <script type="module">
 
-import factory from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-struct-factory@v0.1.0-esm/index.mjs';
+import factory from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-struct-factory@esm/index.mjs';
 
 // Define a schema for a composite data type for storing a student's test scores:
 var schema = [
