@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import structFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-struct-factory@esm/index.mjs';
+import structFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-struct-factory@v0.1.0-esm/index.mjs';
 ```
 
 #### structFactory( arg )
@@ -272,7 +272,7 @@ TODO: document methods
 <body>
 <script type="module">
 
-import factory from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-struct-factory@esm/index.mjs';
+import factory from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-struct-factory@v0.1.0-esm/index.mjs';
 
 // Define a schema for a composite data type for storing a student's test scores:
 var schema = [
