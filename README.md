@@ -45,43 +45,32 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/array-struct-factory
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-structFactory = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-struct-factory@umd/browser.js' )
-```
-The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-struct-factory/tags). For example,
-
-```javascript
-structFactory = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-struct-factory@v0.1.0-umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var structFactory = require( 'path/to/vendor/umd/array-struct-factory/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-struct-factory@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.structFactory;
-})();
-</script>
+var structFactory = require( '@stdlib/array-struct-factory' );
 ```
 
 #### structFactory( arg )
@@ -295,13 +284,8 @@ TODO: document methods
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-struct-factory@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var factory = require( '@stdlib/array-struct-factory' );
 
 // Define a schema for a composite data type for storing a student's test scores:
 var schema = [
@@ -334,11 +318,6 @@ console.log( 'Layout: %s', TestScoreArray.struct.layout );
 // Create a new array for storing test scores:
 var student1 = new TestScoreArray( 10 );
 console.log( 'Byte length: %d', student1.byteLength );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -400,8 +379,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/array-struct-factory.svg
 [npm-url]: https://npmjs.org/package/@stdlib/array-struct-factory
 
-[test-image]: https://github.com/stdlib-js/array-struct-factory/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/array-struct-factory/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/array-struct-factory/actions/workflows/test.yml/badge.svg?branch=v0.1.1
+[test-url]: https://github.com/stdlib-js/array-struct-factory/actions/workflows/test.yml?query=branch:v0.1.1
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/array-struct-factory/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/array-struct-factory?branch=main
@@ -433,11 +412,11 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-struct-factory/main/LICENSE
 
-[@stdlib/array/typed]: https://github.com/stdlib-js/array-typed/tree/umd
+[@stdlib/array/typed]: https://github.com/stdlib-js/array-typed
 
-[@stdlib/array/buffer]: https://github.com/stdlib-js/array-buffer/tree/umd
+[@stdlib/array/buffer]: https://github.com/stdlib-js/array-buffer
 
-[@stdlib/dstructs/struct]: https://github.com/stdlib-js/dstructs-struct/tree/umd
+[@stdlib/dstructs/struct]: https://github.com/stdlib-js/dstructs-struct
 
 </section>
 
